@@ -37,18 +37,19 @@
                        
                      </tr>
                    </thead>
-                   {{-- <tbody>
+                   <tbody>
                        @foreach ( $blog as $blog )
                     <tr>
                         <td>{{$blog->title}}</td>
                         <td>{!!$blog->description!!}</td>
                         <td>{{$blog->short_description}}</td>
-                        <td><img src="{{  $blog->stroge->image }}" style="width:50px;height:40px;" alt=""></td>
+                        <td><img src="{{  $blog->image }}" style="width:50px;height:40px;" alt=""></td>
                         <td>
                             <a href="{{ url("blog/edit/".$blog->id) }}" class="btn btn-primary">Update</a>
+                            <a href="{{ url("blog/edit/".$blog->id) }}" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
-@endforeach --}}
+@endforeach
                    </tbody>
        
        </div>

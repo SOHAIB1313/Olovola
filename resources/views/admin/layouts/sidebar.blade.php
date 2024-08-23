@@ -12,44 +12,17 @@
     <div class="app-menu">
         <ul class="accordion-menu">
             <li class="sidebar-title">
-                Post
+                Menu
             </li>
             <li>
-                <a href=""><i  class="material-icons-two-tone">menu</i>Blogs<i class="material-icons has-sub-menu">keyboard_arrow_right</i></a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="{{route('blog')}}">Blogs</a>
-                        
-                    </li>
-                    <li>
-                        <a href="{{route('blog/form')}}">Insert</a>
-                    </li>
-                    <li>
-                        <a href="{{route('blog/edit')}}">Update</a>
-                    </li>
-                                
-                </ul>
+                <a href="{{route('blog')}}"><i  class="material-icons-two-tone">edit</i>Blogs</a>
+               
+            </li>
+            <li>
+                <a href="{{route('car')}}"><i  class="material-icons-two-tone">card_giftcard</i>Cars</a>
+               
             </li>
            
-            <li class="sidebar-title">
-                Transports
-            </li>
-            <li>
-                <a href=""><i  class="material-icons-two-tone">menu</i>Cars<i class="material-icons has-sub-menu">keyboard_arrow_right</i></a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="{{route('car')}}">Index</a>
-                        
-                    </li>
-                    <li>
-                        <a href="{{route('car/form')}}">Insert</a>
-                    </li>
-                    {{-- <li>
-                        <a href="{{route('car/edit')}}">Update</a>
-                    </li> --}}
-                                
-                </ul>
-            </li>
            
               </ul>
     </div>
